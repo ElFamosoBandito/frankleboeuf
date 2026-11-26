@@ -1,4 +1,4 @@
-# GardeFocus
+# frankleboeuf
 
 Application Python locale de suivi du regard :
 

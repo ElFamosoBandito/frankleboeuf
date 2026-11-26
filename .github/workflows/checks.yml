@@ -18,5 +18,5 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - run: python -m py_compile desktop/gardefocus.py
+      - run: python -m py_compile desktop/frankleboeuf.py
       - run: bash -n desktop/lancer_mac_linux.sh

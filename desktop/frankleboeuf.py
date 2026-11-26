@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-GardeFocus — Surveillance locale du regard avec popup vidéo automatique.
+frankleboeuf — Surveillance locale du regard avec popup vidéo automatique.
 
 Raccourcis clavier (fenêtre caméra active) :
   c         Calibrer le centre de l'écran
@@ -569,7 +569,7 @@ def run_app() -> int:
     )
 
     app = QApplication(sys.argv)
-    app.setApplicationName("GardeFocus")
+    app.setApplicationName("frankleboeuf")
 
     class VideoPopup(QWidget):
         def __init__(
@@ -579,7 +579,7 @@ def run_app() -> int:
             cfg_store: dict[str, Any],
         ) -> None:
             super().__init__(None, Qt.WindowType.Window | Qt.WindowType.WindowStaysOnTopHint)
-            self.setWindowTitle("GardeFocus")
+            self.setWindowTitle("frankleboeuf")
             self.setStyleSheet("background-color: #000000;")
 
             self._cfg_store = cfg_store
@@ -741,7 +741,7 @@ def run_app() -> int:
     class CameraWindow(QWidget):
         def __init__(self) -> None:
             super().__init__()
-            self.setWindowTitle("GardeFocus")
+            self.setWindowTitle("frankleboeuf")
             self.setStyleSheet("background-color: #0B0E14;")
             self.resize(640, 360)
 

@@ -35,5 +35,5 @@ if not exist ".venv\Scripts\python.exe" (
   )
 )
 
-".venv\Scripts\python.exe" gardefocus.py
+".venv\Scripts\python.exe" frankleboeuf.py
 endlocal

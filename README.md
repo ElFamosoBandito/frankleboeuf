@@ -1,4 +1,4 @@
-# GardeFocus
+# frankleboeuf
 
 Application Python locale de suivi du regard par webcam. Une fenêtre affiche le retour caméra ; une popup vidéo avec audio s’ouvre lorsque les yeux quittent l’écran et disparaît au retour du regard.
 
@@ -44,7 +44,7 @@ Les réglages personnels (`desktop/config.json`), l’environnement Python, le m
 
 ## Structure
 
-- `desktop/gardefocus.py` : détection du regard, calibration et fenêtres de l’application.
+- `desktop/frankleboeuf.py` : détection du regard, calibration et fenêtres de l’application.
 - `desktop/lancer_windows.bat` : lanceur Windows.
 - `desktop/lancer_mac_linux.sh` : lanceur macOS / Linux.
 - `desktop/requirements.txt` : dépendances Python.
@@ -55,7 +55,7 @@ Les réglages personnels (`desktop/config.json`), l’environnement Python, le m
 ## Vérification du code
 
 ```bash
-python3 -m py_compile desktop/gardefocus.py
+python3 -m py_compile desktop/frankleboeuf.py
 bash -n desktop/lancer_mac_linux.sh
 ```
 
