@@ -1,0 +1,26 @@
+.DS_Store
+*.log
+.env*
+
+# Python environments and generated files
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+# Local settings, calibration and downloaded model
+/desktop/config.json
+/desktop/face_landmarker.task
+/desktop/face_landmarker.task.tmp
+
+# Keep the supplied clip; exclude subsequently imported personal videos
+/desktop/video/*
+!/desktop/video/Salut cest FRANCK LEBOEUF (PUB ORIGINALE).mp4
+
+# Editor settings and archives
+.idea/
+.vscode/
+*.zip
